@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-    <title>Dinggo-Absen | Presensi Kehadiran</title>
+    <title>Dinggo-Absen | Presensi Ajuans</title>
     <meta content="" name="description" />
     <meta content="" name="keywords" />
 
@@ -265,14 +265,14 @@
         <li class="nav-heading">Presensi</li>
         <!-- End Member Nav -->
         <li class="nav-item">
-          <a class="nav-link" href="presensi-kehadiran.html">
+          <a class="nav-link collapsed" href="presensi-kehadiran.html">
             <i class="bi bi-person"></i>
             <span>Kehadiran</span>
           </a>
         </li>
         <!-- End Member Nav -->
         <li class="nav-item">
-          <a class="nav-link collapsed" href="presensi-ajuans.html">
+          <a class="nav-link" href="presensi-ajuans.html">
             <i class="bi bi-view-list"></i>
             <span>Ajuans Karyawan</span>
           </a>
@@ -295,7 +295,7 @@
         <h1>Presensi</h1>
         <nav>
           <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="index.html">Kehadiran</a></li>
+            <li class="breadcrumb-item"><a href="index.html">Ajuans</a></li>
             <li class="breadcrumb-item active">Index</li>
           </ol>
         </nav>
@@ -307,7 +307,7 @@
           <div class="col-lg-12">
             <div class="card">
               <div class="card-body">
-                <h5 class="card-title">Data Tabel Presensi Kehadiran</h5>
+                <h5 class="card-title">Data Tabel Ajuans Presensi</h5>
                 <p></p>
                 <!-- Table with stripped rows -->
                 <table class="table datatable">
@@ -315,35 +315,24 @@
                     <tr>
                       <th scope="col">#</th>
                       <th scope="col">Nama Pegawai</th>
-                      <th scope="col">Presensi Date</th>
-                      <th scope="col">Check In Time</th>
-                      <th scope="col">Check Out Time</th>
-                      <th scope="col">Distance</th>
+                      <th scope="col">Type Ajuans</th>
+                      <th scope="col">Tanggal Awal</th>
+                      <th scope="col">Tanggal Akhir</th>
+                      <th scope="col">Status</th>
                       <th scope="col">Options</th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
-                      <td>1</td>
-                      <td>Maman Suparman, S.T</td>
-                      <td>30 Juni 2025</td>
-                      <td>06:30</td>
-                      <td>-</td>
-                      <td>30 m</td>
-                      <td>
-                        <a href="presensi-kehadiran-detaill.html" class="btn btn-primary btn-sm"><i class="bi bi-list-check"></i></a>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>2</td>
-                      <td>Sony Sudrajat</td>
-                      <td>30 Juni 2025</td>
-                      <td>06:40</td>
-                      <td>-</td>
-                      <td>31 m</td>
-                      <td>
-                        <a href="presensi-kehadiran-detaill.html" class="btn btn-primary btn-sm"><i class="bi bi-list-check"></i></a>
-                      </td>
+                        <td>1</td>
+                        <td>Maman Suparman, S.T</td>
+                        <td><span class="badge bg-success">Izin</span></td>
+                        <td>30 Juni 2025</td>
+                        <td>03 Juli 2025</td>
+                        <td><span class="badge bg-primary">New</span></td>
+                        <td>
+                            <a href="presensi-ajuans-detail.html" class="btn btn-success btn-sm"><i class="bi bi-list"></i></a>
+                        </td>
                     </tr>
                   </tbody>
                 </table>
