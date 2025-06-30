@@ -297,11 +297,56 @@
                 <div class="row">
                     <div class="col-md-6 col-sm-12 col-lg-6">
                         <div class="form-group mt-2">
-                            <label for="namakaryawan">Nama Karyawan</label>
+                            <label for="namakaryawan">Nama Karyawan <i class="text-danger">*</i> </label>
                             <input type="text" class="form-control" name="namakaryawan">
                         </div>
+                        <div class="form-group mt-2">
+                            <label for="phonenumber">Phone Number <i class="text-danger">*</i> </label>
+                            <input type="text" class="form-control" name="phone_number">
+                        </div>
+                        <div class="form-group mt-2">
+                            <label for="jeniskelamin">Jenis Kelamin <i class="text-danger">*</i> </label>
+                            <select name="jeniskelamin" id="jeniskelamin" class="form-control">
+                              <option value="">-- Pilih Jenis Kelamin --</option>
+                              <option value="Laki-laki">Laki-laki</option>
+                              <option value="Perempuan">Perempuan</option>
+                            </select>
+                        </div>
+                        <div class="form-group mt-2">
+                            <label for="alamat">Alamat <i class="text-danger">*</i> </label>
+                            <textarea name="alamat" id="alamat" class="form-control" rows="3"></textarea>
+                        </div>
+                        <div class="form-group mt-2">
+                            <label for="role">Role <i class="text-danger">*</i> </label>
+                            <select name="role" id="role" class="form-control">
+                              <option value="">-- Pilih Role --</option>
+                              <option value="Karyawan">Karyawan</option>
+                              <option value="Admin">Admin</option>
+                            </select>
+                        </div>
                     </div>
-                    <div class="col-md-6 col-sm-12 col-lg-6">Kanan</div>
+                    <div class="col-md-6 col-sm-12 col-lg-6">
+                        <div class="form-group mt-2">
+                            <label for="email">Email <i class="text-danger">*</i> </label>
+                            <input type="text" name="email" id="email" class="form-control"></input>
+                        </div>
+                        <div class="form-group mt-2">
+                            <label for="password">Password <i class="text-danger">*</i> </label>
+                            <input type="password" name="password" id="password" class="form-control"></input>
+                        </div>
+                        <div class="form-group mt-2">
+                            <label for="confirmpassword">Confirm Password <i class="text-danger">*</i> </label>
+                            <input type="password" name="confirmpassword" id="confirmpassword" class="form-control"></input>
+                        </div>
+                        <div class="form-group mt-2">
+                            <label for="confirmpassword">Photos </label>
+                            <input type="file" name="photos" class="form-control">
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-12 col-lg-12 mt-2">
+                      <button class="btn btn-primary btn-md float-end"><i class="bi bi-save"></i> Simpan</button>
+
+                    </div>
                 </div>
             </div>
           </div>
